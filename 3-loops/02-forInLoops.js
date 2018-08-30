@@ -25,11 +25,11 @@
 
  let name = 'paUL'
  let capName;
- for (let n in name){
-     if (n == 0){
-     capName = name[n].toUpperCase();
+ for (let p in name){
+     if (p == 0){
+     capName = name[p].toUpperCase();
  } else {
-     capName += name[n].toLowerCase();
+     capName += name[p].toLowerCase();
  }
  console.log(capName)
  }
