@@ -13,7 +13,7 @@ cats('dog')
 
 
 
-let apples = (x) => {console.log (x, 'apples for dinner')}
+let apple = (x) => {console.log (x, 'apples for dinner')}
  let apples = x => console.log (x, 'apples for dinner') //concise
 
 apples(10);

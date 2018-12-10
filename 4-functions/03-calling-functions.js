@@ -13,7 +13,7 @@ function ar(){
 }
 ar()
 
-let arr = ['This', 'is', 'really', 'cool'];
+let arr2 = ['This', 'is', 'really', 'cool'];
 function ar(){
     for(let item in arr){
         console.log(arr[item])

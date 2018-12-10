@@ -11,7 +11,7 @@ function capName(name){
     return cap
 }
  const myName = capName('parKeR')
- console.log(myName + ' How are ypu doing?');
+ console.log(myName + ', how are you doing?');
 
 
  function tipCal(thi){

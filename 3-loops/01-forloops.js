@@ -33,3 +33,11 @@ for (let i = 0; i<=50; i = i+1){
     console.log(sum)
 }
 
+function tri(base, right, hyp){
+    if (base + right === hyp){
+        console.log('success')
+    } else{
+        console.log('fail')
+    }
+}
+    tri(5, 5, 11);

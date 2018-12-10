@@ -51,13 +51,33 @@
 // myName.forEach((value, number) => {console.log(value); console.log(number)})
 
 
-let arr = ['n','i','t','n','e','u','Q']
- if (arr instanceof Array === true){
-     let arr = new Array(23)
+// let arr = ['n','i','t','n','e','u','Q']
+//  if (arr instanceof Array === true){
+//      let arr = new Array(23)
     
-     let other2 = arr.reverse()
+//      let other2 = arr.reverse()
 
-     let other3 = other2.join()  
+//      let other3 = other2.join()  
 
-     arr.forEach(a => console.log(a))
- }
+//      arr.forEach(a => console.log(a))
+//  }
+
+
+
+
+
+
+
+ let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+     arr1=[]
+     arr2=[]
+ 
+  for (let i = 0; i <= arr.length-1; i++){
+  if (i % 2 === 0) {
+  arr2.push(arr[i]);
+  } else {
+    arr1.push(arr[i])
+  }
+  }
+console.log(arr1)
+console.log(arr2)
